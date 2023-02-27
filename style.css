@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(49, 240, 240);
+}
+
+.container {
+  width: 410px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.inputs {
+  margin: 20px auto;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(153, 252, 252, 0.979);
+  box-shadow: #9beefb;
+  flex-direction: column;
+}
+.inputs input[type="text"] {
+  height: 50px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  margin-right: 4px;
+  background-color: white;
+}
+.inputs input[type="submit"] {
+  height: 40px;
+  width: 100px;
+  background: #0a67ca;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 2px;
+}
+.display {
+  display: none;
+  text-align: center;
+  width: 400px;
+}
+.weather {
+  margin: 0 90px;
+  background-color: white;
+  height: 250px;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+.weather p {
+  margin: 20px 50px;
+  margin-right: 20px;
+  font-size: 25px;
+  text-align: justify;
+}
